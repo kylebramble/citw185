@@ -1,0 +1,491 @@
+/* ======== css for main site ======== */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 100%;
+    text-align: center;
+    background-color: #E5ECFF;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+#page {
+    font-size: 1em;
+    width: 52em;
+    max-width: 95%;
+    margin: 1.5em auto;
+    text-align: left;
+    border: 1px solid #aaaaaa;
+    background-color: #ffffff;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* ======== banner ======== */
+
+#banner {
+    padding: 1.2em;
+    background-color: #333366;
+    border-bottom: 4px solid #80A2FF;
+}
+
+#banner h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+    font-family: Helvetica, Geneva, Arial, sans-serif;
+    margin: 0;
+}
+
+/* ======== picture ======== */
+
+#picture {
+    float: right;
+    width: 180px;
+    margin: 0 0 1em 2em;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 0.8em;
+    font-family: Helvetica, Geneva, Arial, sans-serif;
+    background-color: #f4f6ff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+#picture img {
+    width: 160px;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 4px;
+}
+
+/* ======== content ======== */
+
+#content {
+    width: auto;
+    text-align: left;
+    padding: 2em;
+    line-height: 1.5em;
+}
+
+#content p {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+/* ======== images ======== */
+
+img {
+    border: none;
+    margin: 0.5em;
+    max-width: 100%;
+}
+
+.floatR {
+    float: right;
+}
+
+.floatL {
+    float: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ======== headings ======== */
+
+h1,
+h2,
+h3 {
+    font-family: Helvetica, Geneva, Arial, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    color: #0354c2;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h2 {
+    color: #0354c2;
+    font-size: 1.2em;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 0.3em;
+}
+
+h3 {
+    color: #333366;
+    font-size: 1em;
+}
+
+/* ======== text colors ======== */
+
+.red {
+    color: #ff0000;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.c1 {
+    color: green;
+    font-weight: bold;
+}
+
+.c2 {
+    color: blue;
+}
+
+.c3 {
+    color: black;
+}
+
+.c4 {
+    color: orange;
+}
+
+.c5 {
+    color: red;
+    font-weight: bold;
+}
+
+/* ======== widths ======== */
+
+.w5 {
+    width: 5%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+/* ======== horizontal rule ======== */
+
+hr {
+    width: 80%;
+    clear: both;
+    margin: 1em auto;
+    border: 0;
+    border-top: 1px solid #cccccc;
+}
+
+/* ======== paragraphs ======== */
+
+p {
+    color: #3b3b3b;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+}
+
+/* ======== lists ======== */
+
+ul {
+    margin-left: 2em;
+    color: #3b3b3b;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+    list-style-type: square;
+}
+
+/* ======== footer ======== */
+
+#footer {
+    clear: both;
+    text-align: left;
+    padding: 1em;
+    background-color: #ffffff;
+}
+
+#footer p {
+    clear: both;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    margin: 0;
+    text-align: left;
+}
+
+#footer a {
+    margin: 0;
+}
+
+/* ======== links ======== */
+
+a {
+    margin: 0;
+}
+
+a.icon {
+    float: right;
+    clear: both;
+    margin: 1em;
+    margin-top: -1em;
+}
+
+/* ======== code display ======== */
+
+pre {
+    color: #003399;
+    background-color: #E5ECFF;
+    text-align: left;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+    font-weight: normal;
+    font-size: small;
+    line-height: 1.3em;
+    padding: 1em;
+    margin: 1em;
+    border: 2px solid #cccccc;
+    overflow-x: auto;
+}
+
+code {
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    background-color: #E5ECFF;
+    border: 1px solid #cccccc;
+    overflow-x: auto;
+}
+
+.wrap {
+    white-space: normal;
+}
+
+/* ======== headers ======== */
+
+.header1 {
+    background-color: #80A2FF;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.header2 {
+    background-color: #ccdaff;
+    text-align: center;
+}
+
+/* ======== table rows ======== */
+
+.row0 {
+    background-color: #eeeeee;
+}
+
+.row1 {
+    background-color: #ffffff;
+}
+
+/* ======== forms ======== */
+
+textarea.message {
+    width: 600px;
+    max-width: 95%;
+    height: 120px;
+    border: 1px solid #888888;
+    padding: 5px;
+    font-family: Tahoma, sans-serif;
+}
+
+form {
+    font-size: 0.8em;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    font-size: 0.8em;
+    width: 100%;
+    border: 6px double #eeeeee;
+    background-color: #ffffff;
+}
+
+.db {
+    vertical-align: text-top;
+}
+
+.normal {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ======== arrow paging ======== */
+
+#arrow-paging {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+#arrow-paging p {
+    font-size: 0.8em;
+    color: blue;
+}
+
+#arrow-paging img {
+    font-size: 1em;
+    position: relative;
+    top: 0.3em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    height: 1.1875em;
+    width: 1.375em;
+    border: none;
+}
+
+/* ======== hidden content ======== */
+
+#hide {
+    display: none;
+    color: #003399;
+    background-color: #ffffff;
+    text-align: left;
+    font-weight: normal;
+    font-size: 0.9em;
+    line-height: 1.3em;
+    padding: 1em;
+    margin: 1em;
+    border: 2px solid #cccccc;
+}
+
+.w3c {
+    margin: 1em;
+    margin-right: 3em;
+}
+
+/* ======== directory/code box ======== */
+
+.dir {
+    color: #003399;
+    background-color: #ffffff !important;
+    text-align: left;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+    font-weight: normal;
+    font-size: small;
+    line-height: 1.3em;
+    padding: 1% 2%;
+    margin: 1% 2%;
+    border-style: solid;
+    border-width: 2px 2px 1px 2px;
+    border-color: #dfdfdf #dfdfdf #666666 #cccccc;
+}
+
+.dir input {
+    margin-left: 1em;
+}
+
+/* ======== nav code for examples ======== */
+
+.navcontainer,
+.navcontainer-top,
+.navcontainer-bottom {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    font-family: Helvetica, Geneva, Arial, sans-serif;
+    background-color: #f5f6fa;
+}
+
+ul.navlist {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.navlist li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navlist a {
+    display: inline-block;
+    padding: 7px 14px;
+    margin: 2px;
+    border: 1px solid #002244;
+    border-radius: 4px;
+}
+
+.navlist a:link,
+.navlist a:visited {
+    color: #ffffff;
+    background-color: #003366;
+    text-decoration: none;
+}
+
+.navlist a:hover,
+.navlist a:focus {
+    color: #ffffff;
+    background-color: #336699;
+    text-decoration: none;
+}
+
+.navlist li.active {
+    color: #ffffff;
+    padding: 7px 14px;
+    background-color: #336699;
+    text-decoration: none;
+}
+
+/* ======== mobile support ======== */
+
+@media screen and (max-width: 700px) {
+
+    #page {
+        width: 94%;
+        margin: 0.5em auto;
+    }
+
+    #content {
+        padding: 1em;
+    }
+
+    #picture {
+        float: none;
+        width: 180px;
+        margin: 1em auto;
+    }
+
+    #picture img {
+        width: 160px;
+    }
+
+    textarea.message {
+        width: 95%;
+    }
+
+    ul.navlist {
+        white-space: normal;
+    }
+}

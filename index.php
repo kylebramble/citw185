@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>PHP Class</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<main>
+    <h1>CITW 185 Website</h1>
+    <p class="byline">by Kyle Bramble</p>
+	 <p><a href="https://citw.lcc.edu/~sperlt/citw185/examples.php">CITW 185 Web Development PHP & MySQL Link</a></p>
+    <div id="picture">
+    <img src="img/me.png" alt="Picture of Kyle Bramble">
+    </div>
+   
+    <section>
+        <h2>Week 2 - Includes</h2>
+        <ul>
+            <li><a href="examples/hello-world.php">Hello World</a></li>
+            <li><a href="examples/hello-world-show-code.php">Hello World with Show Code</a></li>
+            <li><a href="examples/hello-world-include.php">Hello World with Include</a></li> 
+        </ul>     
+    </section>
+
+    <section>
+        <h2>Week 3 - HTML Forms</h2>
+        <ul>
+            <li><a href="examples/Kyle's $_GET_form.php">Kyle's GET Form</a></li>
+            <li><a href="examples/Kyle's $_GET_POST_form.php">Kyle's GET POST Form</a></li>
+            <li><a href="examples/Kyle's_Simple_POST_sticky_form.php">Kyle's Simple "Sticky" Form</a></li>
+            <li><a href="examples/Kyle's_All_in_one_form.php">Kyle's All-in-One Form</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Week 4 - Variables - Data-types - Expressions</h2>
+        <ul>
+            <li><a href="examples/variables.php">Book's Example</a></li>
+            <li><a href="examples/variable2.php">User's value for Calculation</a></li>
+            <li><a href="examples/week4.php">Tax Calculator</a></li>
+        </ul>
+    </section>
+
+     <section>
+        <h2>Week 5 - Decisions and Loops</h2>
+        <ul>
+            <li><a href="examples/5.1.php">Decision Examples</a></li>
+            <li><a href="examples/5.2.php">Loops</a></li>
+			<li><a href="examples/week5.php">Tip Calculator</a></li>
+        </ul>
+    </section>
+
+     <section>
+        <h2>Week 6 - Strings</h2>
+        <ul>
+            <li><a href="examples/6.1.php">Strings</a></li>
+			<li><a href="examples/6.2.php">Strings Revisited</a></li>
+            <li><a href="examples/6.3.php">Strings Replace</a></li>
+            <li><a href="examples/6.4.php">More String Stuff</a></li>
+            <li><a href="examples/6.5.php">Week 6 Assignment</a></li>
+        </ul>
+    </section>   
+
+
+</main>
+
+
+<footer>
+    Copyright &copy; 2026 Kyle Bramble
+</footer>
+</body>
+
+
+<!-- </html><section>
+        <ul>
+            <li><a href="">_</a></li>
+			<li><a href="">_</a></li>
+        </ul>
+    </section>
